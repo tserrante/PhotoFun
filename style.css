@@ -1,0 +1,38 @@
+:root{
+    /*
+      Color, spacing, and blur
+    */
+    --spacing: 10px;
+    --blur: 10px;
+    --baseColor:#ffc600;
+    --rotate:0deg;
+    --size:43%;
+  }
+  img{
+    padding:var(--spacing);
+    background:var(--baseColor);
+    filter: blur(var(--blur));
+    transform: rotate(var(--rotate));
+    width: var(--size);
+    height:auto;
+  }
+  body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
+  
+  .controls {
+    margin-bottom: 50px;
+  }
+
+  .file-upload-container{
+    margin-top: 50px;
+  }
+
+  input {
+    width: 100px;
+  }
